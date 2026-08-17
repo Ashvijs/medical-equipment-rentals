@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Affordable medical equipment rentals in Kandivali East and Thakur Village, Mumbai. Wheelchair, oxygen concentrator and portable oxygen cylinder rentals.">
+  <title>Medical Equipment Rentals | Kandivali East, Mumbai</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <div class="brand">
+      <span class="brand-mark">+</span>
+      <div><strong>CareRent</strong><small>Medical Equipment Rentals</small></div>
+    </div>
+    <a class="nav-wa" href="#contact">Contact</a>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">KANDIVALI EAST • THAKUR VILLAGE • MUMBAI</p>
+      <h1>Medical equipment when you need it.</h1>
+      <p class="hero-copy">Simple, affordable monthly rentals for mobility and oxygen-support equipment. Local pickup and availability by enquiry.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#equipment">View equipment</a>
+        <a class="btn secondary" href="#contact">Check availability</a>
+      </div>
+      <div class="trust-row">
+        <span>✓ Affordable monthly rental</span>
+        <span>✓ Local service</span>
+        <span>✓ Enquiry before booking</span>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="hero-icon">🫁</div>
+      <h3>Need equipment today?</h3>
+      <p>Send an enquiry with the equipment you need and your preferred rental period.</p>
+      <a class="btn primary full" href="#contact">Enquire now</a>
+    </div>
+  </div>
+</section>
+
+<section id="equipment" class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">AVAILABLE EQUIPMENT</p>
+        <h2>Choose what you need</h2>
+      </div>
+      <p>Prices shown are monthly rental rates.</p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <div class="photo"><img src="assets/wheelchair.jpg" alt="Foldable travel wheelchair"></div>
+        <div class="card-body">
+          <span class="tag">Mobility</span>
+          <h3>Foldable Travel Wheelchair</h3>
+          <p class="desc">Compact, foldable travel wheelchair with carry/travel bag as shown in the reference image.</p>
+          <div class="price">₹500 <span>/ month</span></div>
+          <a class="card-link" href="#contact">Enquire →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="photo"><img src="assets/concentrator.jpg" alt="OxyMed Mini 5 LPM oxygen concentrator"></div>
+        <div class="card-body">
+          <span class="tag">Oxygen equipment</span>
+          <h3>Oxygen Concentrator – 5 LPM</h3>
+          <p class="desc">OxyMed Mini 5 LPM home oxygen concentrator. Use only as directed by a qualified medical professional.</p>
+          <div class="price">₹1,000 <span>/ month</span></div>
+          <a class="card-link" href="#contact">Enquire →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="photo"><img src="assets/cylinder.jpg" alt="Portable 330 litre oxygen cylinder"></div>
+        <div class="card-body">
+          <span class="tag">Oxygen equipment</span>
+          <h3>Portable Oxygen Cylinder – 330 L</h3>
+          <p class="desc">Portable aluminium oxygen cylinder with regulator, based on the supplied reference image.</p>
+          <div class="price">₹1,000 <span>/ month</span></div>
+          <div class="extra">Refill: <strong>₹300 / refill</strong></div>
+          <a class="card-link" href="#contact">Enquire →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="how section">
+  <div class="wrap">
+    <div class="section-head">
+      <div><p class="eyebrow">HOW IT WORKS</p><h2>Simple local rental</h2></div>
+    </div>
+    <div class="steps">
+      <div><span>01</span><h3>Choose equipment</h3><p>Select the equipment and rental period you need.</p></div>
+      <div><span>02</span><h3>Send an enquiry</h3><p>Contact us to confirm availability, deposit and pickup/delivery details.</p></div>
+      <div><span>03</span><h3>Collect & return</h3><p>Complete the rental formalities, use the equipment responsibly and return it as agreed.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="safety section">
+  <div class="wrap safety-box">
+    <div>
+      <p class="eyebrow">IMPORTANT</p>
+      <h2>Medical equipment should be used safely.</h2>
+    </div>
+    <ul>
+      <li>Oxygen equipment should be used only according to a doctor's or qualified medical professional's instructions.</li>
+      <li>This rental service does not provide medical diagnosis, treatment or emergency care.</li>
+      <li>Availability, condition, rental period and any security deposit are confirmed before handover.</li>
+      <li>Oxygen refill charges are separate from the monthly cylinder rental.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact" class="contact section">
+  <div class="wrap contact-grid">
+    <div>
+      <p class="eyebrow">CONTACT</p>
+      <h2>Check availability</h2>
+      <p>Tell us which equipment you need, for how long, and whether you need pickup or local delivery.</p>
+      <div class="location">📍 Kandivali East, Thakur Village, Mumbai</div>
+    </div>
+    <form class="form" onsubmit="sendWhatsApp(event)">
+      <label>Your name<input id="name" required placeholder="Name"></label>
+      <label>Equipment
+        <select id="equipmentSelect" required>
+          <option value="">Select equipment</option>
+          <option>Foldable Travel Wheelchair</option>
+          <option>Oxygen Concentrator – 5 LPM</option>
+          <option>Portable Oxygen Cylinder – 330 L</option>
+        </select>
+      </label>
+      <label>Rental period<input id="period" required placeholder="e.g. 1 month"></label>
+      <label>Message (optional)<textarea id="message" rows="3" placeholder="Pickup/delivery or other details"></textarea></label>
+      <button class="btn primary full" type="submit">WhatsApp to enquire</button>
+      <small class="form-note">Replace the WhatsApp number in <code>script.js</code> before publishing.</small>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <div><strong>CareRent</strong><br><span>Medical Equipment Rentals • Kandivali East, Mumbai</span></div>
+    <span>© <span id="year"></span> CareRent</span>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
